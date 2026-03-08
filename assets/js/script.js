@@ -238,34 +238,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
     // ========== 7. Contact Form Handling ==========
-    const contactForm = document.getElementById('contactForm');
-
-    if (contactForm) {
-        contactForm.addEventListener('submit', (e) => {
-            e.preventDefault();
-
-            const name = document.getElementById('contactName').value.trim();
-            const email = document.getElementById('contactEmail').value.trim();
-            const message = document.getElementById('contactMessage').value.trim();
-
-            if (name && email && message) {
-                const btn = contactForm.querySelector('button[type="submit"]');
-                const originalText = btn.innerHTML;
-                btn.innerHTML = '<i class="bi bi-check-circle me-2"></i>Message Sent!';
-                btn.classList.remove('btn-primary');
-                btn.classList.add('btn-success');
-                btn.disabled = true;
-
-                setTimeout(() => {
-                    btn.innerHTML = originalText;
-                    btn.classList.remove('btn-success');
-                    btn.classList.add('btn-primary');
-                    btn.disabled = false;
-                    contactForm.reset();
-                }, 3000);
-            }
-        });
-    }
+    // Formspree handles the submission natively, so we removed the preventDefault() logic.
+    // The HTML form has an action URL and method="POST" which will send the email and redirect.
 
 
     // ========== 8. Typing Effect for Hero Title ==========
