@@ -260,7 +260,7 @@
                                     <p class="card-text text-accent mb-1" style="font-size: 0.9rem;">EST-Dakhla
                                         Technical Project</p>
                                     <p class="card-text">Created a professional website using WordPress. Applied web
-                                        development best practices, integrated advanced features.</p>
+                                        development best practices, integrated advanced features, .</p>
                                 </div>
                             </div>
                         </div>
@@ -500,28 +500,34 @@
             <!-- Contact Form (centered, on top) -->
             <div class="row justify-content-center mb-5">
                 <div class="col-lg-8">
-                    <form id="contactForm" class="contact-form p-4 p-md-5">
+                    <!-- Configured with Formspree for akhsassiayman@gmail.com -->
+                    <form id="contactForm" action="https://formspree.io/f/mqwqvkka" method="POST"
+                        class="contact-form p-4 p-md-5">
                         <div class="row g-3">
                             <div class="col-md-6">
                                 <label for="contactName" class="form-label">Full Name</label>
-                                <input type="text" class="form-control" id="contactName" placeholder="Your name"
-                                    required>
+                                <input type="text" name="name" class="form-control" id="contactName"
+                                    placeholder="Your name" required>
                             </div>
                             <div class="col-md-6">
                                 <label for="contactEmail" class="form-label">Email Address</label>
-                                <input type="email" class="form-control" id="contactEmail" placeholder="your@email.com"
-                                    required>
+                                <input type="email" name="email" class="form-control" id="contactEmail"
+                                    placeholder="your@email.com" required>
                             </div>
                             <div class="col-12">
                                 <label for="contactSubject" class="form-label">Subject</label>
-                                <input type="text" class="form-control" id="contactSubject"
+                                <input type="text" name="subject" class="form-control" id="contactSubject"
                                     placeholder="Project inquiry">
                             </div>
                             <div class="col-12">
                                 <label for="contactMessage" class="form-label">Message</label>
-                                <textarea class="form-control" id="contactMessage" rows="5"
+                                <textarea name="message" class="form-control" id="contactMessage" rows="5"
                                     placeholder="Tell me about your project..." required></textarea>
                             </div>
+                            <!-- Formspree hidden redirect (Optional: keeps them on your site) -->
+                            <input type="hidden" name="_next"
+                                value="https://ayman-26-dev.github.io/cv-en-ligne-ayman/#contact">
+
                             <div class="col-12">
                                 <button type="submit" class="btn btn-primary btn-lg w-100">
                                     <i class="bi bi-send me-2"></i>Send Message
