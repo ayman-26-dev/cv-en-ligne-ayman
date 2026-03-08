@@ -500,8 +500,8 @@
             <!-- Contact Form (centered, on top) -->
             <div class="row justify-content-center mb-5">
                 <div class="col-lg-8">
-                    <!-- Using a simple mailto link for direct emails -->
-                    <form id="contactForm" action="mailto:akhsassiayman@gmail.com" method="POST" enctype="text/plain"
+                    <!-- Configured with Formspree (requires your unique endpoint from Formspree.io) -->
+                    <form id="contactForm" action="https://formspree.io/f/mzdjzlpv" method="POST"
                         class="contact-form p-4 p-md-5">
                         <div class="row g-3">
                             <div class="col-md-6">
@@ -524,7 +524,9 @@
                                 <textarea name="message" class="form-control" id="contactMessage" rows="5"
                                     placeholder="Tell me about your project..." required></textarea>
                             </div>
-                            <!-- standard submit button -->
+                            <!-- Formspree hidden redirect (Optional: keeps them on your site) -->
+                            <input type="hidden" name="_next"
+                                value="https://ayman-26-dev.github.io/cv-en-ligne-ayman/#contact">
 
                             <div class="col-12">
                                 <button type="submit" class="btn btn-primary btn-lg w-100">
