@@ -1,38 +1,39 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=soft&color=0:0d1117,100:00c896&height=150&section=header&text=CV%20en%20Ligne&fontColor=ffffff&fontSize=36&fontAlignY=45&desc=Personal%20Portfolio%20%E2%80%94%20Ayman%20Akhsassi&descSize=16&descAlignY=70&animation=fadeIn" width="100%" alt="Header" />
+  <img src="https://capsule-render.vercel.app/api?type=soft&color=0:0d1117,100:00c896&height=150&section=header&text=CV%20en%20Ligne&fontColor=ffffff&fontSize=36&fontAlignY=45&desc=Portfolio%20Personnel%20%E2%80%94%20Ayman%20Akhsassi&descSize=16&descAlignY=70&animation=fadeIn" width="100%" alt="Header" />
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Status-Live-00c896?style=for-the-badge" alt="Status" />
+  <img src="https://img.shields.io/badge/Statut-En%20Ligne-00c896?style=for-the-badge" alt="Statut" />
   <img src="https://img.shields.io/badge/Bootstrap-5.3-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap" />
-  <img src="https://img.shields.io/badge/License-All%20Rights%20Reserved-333?style=for-the-badge" alt="License" />
+  <img src="https://img.shields.io/badge/Langue-Fran%C3%A7ais-blue?style=for-the-badge" alt="Langue" />
+  <img src="https://img.shields.io/badge/Licence-Tous%20Droits%20R%C3%A9serv%C3%A9s-333?style=for-the-badge" alt="Licence" />
 </p>
 
 <p align="center">
-  A modern, responsive <b>personal portfolio website</b> with a dark theme, glassmorphism effects,<br/>
-  3D project carousel, and smooth scroll animations.
+  Un <b>site portfolio personnel</b> moderne et responsive avec un thème sombre, des effets de glassmorphisme,<br/>
+  un carrousel 3D de projets et des animations de défilement fluides.
 </p>
 
 <p align="center">
-  <a href="https://ayman-26-dev.github.io/cv-en-ligne-ayman/">🌐 Live Demo</a> •
-  <a href="#-features">✨ Features</a> •
-  <a href="#-technologies">🛠️ Tech</a> •
-  <a href="#-deployment">🚀 Deploy</a>
+  <a href="https://ayman-26-dev.github.io/cv-en-ligne-ayman/">🌐 Démo en Ligne</a> •
+  <a href="#-fonctionnalités"> Fonctionnalités</a> •
+  <a href="#-technologies"> Tech</a> •
+  <a href="#-déploiement"> Déploiement</a>
 </p>
 
 ---
 
-## ✨ Features
+## ✨ Fonctionnalités
 
-| Feature | Description |
+| Fonctionnalité | Description |
 |---------|-------------|
-| 🌑 **Dark Theme** | Elegant dark UI with green accent colors & gradients |
-| 🪟 **Glassmorphism** | Frosted glass effects on cards, navbar, and badges |
-| 🎠 **3D Carousel** | Interactive 3D project slider with CSS transforms |
-| ✍️ **Typing Effect** | Animated typewriter text in the hero section |
-| 📱 **Responsive** | Fully optimized for mobile, tablet, and desktop |
-| 🎞️ **Animations** | Smooth scroll-triggered reveal animations |
-| 📬 **Contact Form** | Integrated form with validation |
+| 🌑 **Thème Sombre** | Interface sombre élégante avec couleurs d'accent vertes & dégradés |
+| 🪟 **Glassmorphisme** | Effets de verre dépoli sur les cartes, la navbar et les badges |
+| 🎠 **Carrousel 3D** | Carrousel interactif de projets avec transformations CSS |
+| ✍️ **Effet Machine à Écrire** | Animation de texte dactylographié dans la section héro |
+| 📱 **Responsive** | Entièrement optimisé pour mobile, tablette et bureau |
+| 🎞️ **Animations** | Animations de révélation déclenchées au défilement |
+| 📬 **Formulaire de Contact** | Formulaire intégré avec validation |
 
 ---
 
@@ -48,55 +49,56 @@
 
 ---
 
-## 📁 Project Structure
+## 📁 Structure du Projet
 
 ```
 cv-en-ligne-ayman/
-├── index.html              # Main page
+├── index.html              # Page principale
 ├── README.md
 └── assets/
     ├── css/
-    │   └── style.css       # Custom dark theme & animations
-    ├── img/                # Project visuals & profile photo
+    │   └── style.css       # Thème sombre & animations personnalisés
+    ├── img/                # Visuels des projets & photo de profil
     │   ├── profile.jpeg
-    │   ├── project-*.gif   # Animated project showcases
+    │   ├── project-*.gif   # Présentations animées des projets
     │   └── ...
     ├── js/
-    │   └── script.js       # Carousel, typing, scroll FX
-    └── moncv.pdf           # Downloadable CV
+    │   └── script.js       # Carrousel, effet machine à écrire, effets de défilement
+    └── moncv.pdf           # CV téléchargeable
 ```
 
 ---
 
-## 🚀 Deployment
+## 🚀 Déploiement
 
 ### GitHub Pages
 
-1. Push this repo to GitHub
-2. Go to **Settings → Pages**
-3. Set source to **Deploy from branch** → `main` → `/ (root)`
-4. Your site goes live at `https://ayman-26-dev.github.io/cv-en-ligne-ayman/`
+1. Poussez ce dépôt sur GitHub
+2. Allez dans **Settings → Pages**
+3. Définissez la source sur **Deploy from branch** → `main` → `/ (root)`
+4. Votre site sera en ligne à `https://ayman-26-dev.github.io/cv-en-ligne-ayman/`
 
 ---
 
 ## 📸 Sections
 
-| Section | Highlights |
-|---------|------------|
-| 🏠 **Home** | Hero with profile photo, animated badges, download CV button |
-| 👤 **About** | Stats (projects, clients, years), biography |
-| 🎯 **Skills** | Progress bars for Photoshop, Illustrator, After Effects, etc. |
-| 📅 **Experience** | Timeline with work experience & education |
-| 🎨 **Projects** | 3D carousel with 10 design projects (GIFs & images) |
-| 📬 **Contact** | Form + social link cards (LinkedIn, GitHub, Instagram, Email) |
+| Section | Points Forts |
+|---------|-------------|
+| 🏠 **Accueil** | Héro avec photo de profil, badges animés, bouton télécharger CV |
+| 👤 **À Propos** | Statistiques (projets, compétences, années), biographie |
+| 🎯 **Compétences** | Barres de progression pour Photoshop, Illustrator, After Effects, etc. |
+| 📅 **Expérience** | Chronologie avec expérience professionnelle & formation |
+| 🎨 **Projets** | Carrousel 3D avec 10 projets de design (GIFs & images) |
+| 💻 **Logiciels** | Applications Python (Slot Machine, Hangman, Banking System) |
+| 📬 **Contact** | Formulaire + cartes de liens sociaux (LinkedIn, GitHub, Instagram, Email) |
 
 ---
 
-## 🔗 Links
+## 🔗 Liens
 
-| | Link |
+| | Lien |
 |---|------|
-| 🌐 **Live Site** | [ayman-26-dev.github.io/cv-en-ligne-ayman](https://ayman-26-dev.github.io/cv-en-ligne-ayman/) |
+| 🌐 **Site en Ligne** | [ayman-26-dev.github.io/cv-en-ligne-ayman](https://ayman-26-dev.github.io/cv-en-ligne-ayman/) |
 | 💼 **LinkedIn** | [Ayman Akhsassi](https://www.linkedin.com/in/ayman-akhsassi-972324356/) |
 | 📸 **Instagram** | [@p_is__f](https://www.instagram.com/p_is__f/) |
 | 📧 **Email** | [akhsassiayman@gmail.com](mailto:akhsassiayman@gmail.com) |
@@ -104,5 +106,5 @@ cv-en-ligne-ayman/
 ---
 
 <p align="center">
-  © 2026 <b>Ayman Akhsassi</b> — All rights reserved.
+  © 2026 <b>Ayman Akhsassi</b> — Tous droits réservés.
 </p>
